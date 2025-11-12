@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="">User Name:</label><br>
+            <input type="text" name="Tese" id="Tese"><br><br>
+            <input type="button" value="Click Me!" id="butID" style="
+            width: 170px;height: 30px;background-color: rgba(0,255,255,0.96);color: white;
+            " onclick="regx()">
+            <label for="invalid" id="invalid" style="visibility: hidden;">invalid Username</label>
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+    function regx(){
+        var test =document.getElementById("Tese").value;
+        var Regx=/abc/
+
+        if(test.match(Regx)){
+            alert("Corect Input")
+            document.getElementById("invalid").style.visibility=" hidden"
+        }
+        else{
+            document.getElementById("invalid").style.visibility="visible"
+            document.getElementById("Test").style.border="solid red 2px"
+        }
+
+    }
+
+</script>

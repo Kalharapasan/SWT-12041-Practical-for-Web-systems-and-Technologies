@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Javascript -->
+    <script>
+        //01.document.write
+        //02.console.log 
+        //03.innerhtml
+        //04.window .alert
+
+        document.write("-----------------Print Some thing Output--------------------------<br/>");
+        //01.document.write
+        document.write("Hello world <br/>");
+        document.write(3+2 +"<br/>");
+        document.write(2);
+
+        //2.Alert - popup messages
+
+        alert('hello');
+
+        //3.console .log
+        console.log("Hello");
+        console.log("Kalhara");
+
+
+        //Variables
+        document.write( "<br/>");
+        document.write("<br/>");
+        document.write("---------------------Variables Output------------------------<br/>");
+   
+        var x=10;
+        var y=20;
+        document.write(x*y +"<br/>");
+        document.write(x/y +"<br/>");
+
+        var name ="Tom";
+        document.write(name +"<br/>");
+
+        //For Loop
+        document.write( "<br/>");
+        document.write("<br/>");
+        document.write("---------------------For Loop Output------------------------<br/>");
+
+        for (var a=1;a<=10;a+=2){
+            document.write(name +"<br/>");
+        }
+
+       //while Loop
+        document.write( "<br/>");
+        document.write("<br/>");
+        document.write("---------------------while Loop Output------------------------<br/>");
+        
+        var b=0;
+        while(b<10){
+            document.write(++b+"<br/>");
+        }
+        //Nested For Loop
+        document.write( "<br/>");
+        document.write("<br/>");
+        document.write("---------------------Nested For Loop Output------------------------<br/>");
+
+        document.write("---------------------Pattern Example 01 Output------------------------<br/>");
+
+        for (var m=1;m<=5;m++){
+            for (var n=1;n<=5;n++){
+                document.write("*");
+            }
+            document.write("<br/>");
+        }
+        
+        document.write("---------------------Pattern Example 02 Output------------------------<br/>");
+
+        for (var row=1;row<=5;row++){
+            for (var col=1;col<=5;col++){
+                if (row ==3 ||col==3){
+                    document.write("*");
+                }
+            }
+            document.write("<br/>");
+        }
+
+        document.write("---------------------Pattern Example 03 Output------------------------<br/>");
+        for (var row=1;row<=5;row++){
+            for (var col=1;col<=row;col++){
+                document.write("*");
+                }
+            
+            
+            document.write("<br/>");
+        }
+
+        document.write("---------------------Example 03 Output------------------------<br/>");
+
+        var l=  3+5+"abc"+4+5+"xyz";
+
+        document.write(l+"<br/>");
+
+        //Functions
+        document.write( "<br/>");
+        document.write("<br/>");
+        document.write("---------------------Functions Output------------------------<br/>");
+
+         var add =3+5+sum(10,5);
+         document.write( add+"<br/>");
+
+         function sum(a,b){
+            return a+b;
+         }
+         
+
+         document.write("---------------------Functions Output 02------------------------<br/>");
+         
+         var num=mul(5,5,5)
+         document.write( num+"<br/>");
+
+         function mul(a,b,c){
+            return a*b*c;
+         }
+
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>

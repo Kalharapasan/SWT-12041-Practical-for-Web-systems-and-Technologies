@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ss{
+            background-color: black;
+            color: aqua;
+        }
+        li{
+            display: inline;
+        }
+        form{
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            background-color: aquamarine;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    
+        img{
+            border-radius:100%;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <ul class="ss">
+       <li><a href="#aa">aa</a></li>
+       <li><a href="#bb">bb</a></li>
+       <li float:right><a href="#cc">cc</a></li>
+    </ul>
+    <script>
+        //document.write
+        //console.log
+        //window.alert
+        //innerhtml
+        document.write("hello world</br>")
+         document.write(3+2+"</br>")
+          document.write(2)
+
+          alert('hello')
+
+          console.log('hai')
+
+          var x=10
+          var y=20
+
+          document.write(x+y+"</br>")
+          document.write(x-y+"</br>")
+          document.write(x*y+"</br>")
+          document.write(x/y+"</br>")
+
+          var name="tom"
+          document.write(name+"</br>")
+
+          for(var a=1;a<=10;a+=2)
+          {
+            document.write(name+"</br>")
+          }
+           var b=0
+          while(b<10)
+          {
+                  document.write(++b +"</br>")
+          }
+
+       for(var m=1; m<=5 ;m++){
+        for(var n=1; n<=5;n++){
+            document.write("*")
+        }
+        document.write("</br>")
+       }
+
+       //for(var row=1; row<=5; row++){
+      //  for(var col=1 ; col<=5 col++){
+          //  if(row==0  || row==5  && col==0 || col==5){
+           //     document.write("*")
+           // }
+        //}
+        document.write("</br>")
+       //}
+
+       var l=2+3+"abc"+4+5+"xt"
+       document.write(l+"</br>")
+
+       var add =3+4+sum(10,5)
+       document.write(add+"</br>")
+       function sum(a,b){
+        return a+b
+       }
+
+
+
+
+
+       function sum2(c,d,f){
+        return c*d*f
+       }
+
+       var reuslt=sum2(10,10,10)
+       document.write(reuslt+"</br>")
+
+       function haimassage(){
+      document.bgColor='red'
+       }
+       function massage(){
+      document.bgColor='white'
+       }
+
+       function sub(){
+        alert("thank you")
+       }
+       document.getElementById('abc').innerHTML=7+2
+
+       function changecolor(){
+        document.getElementById('name').style.color='red'
+       }
+       function changecolor2(){
+        document.getElementById('name').style.color='green'
+       }
+
+       function filcolor(){
+        document.getElementById('a').style.background='red'
+        document.getElementById('click').style.fontSize='40px'
+        document.getElementById('name').style.fontSize='40px'
+       }
+       function filcolor3(){
+        document.getElementById('a').style.color='yellow'
+       }
+       
+       function imggechnage(){
+        document.getElementsById('').src='ss.jpg'
+       }
+       
+
+       
+
+    </script>
+    <p id='abc'> </p>
+
+    <input type="button" value="click"  onclick="haimassage()" onmouseover="haimassage()" onmouseout="massage()">
+    <label for="submit"></label>
+    <input type="submit" value="submit" onclick="sub()">
+
+    <form>
+        <div><img src="images.png" ></div>
+    <label for="fistname" onmouseover="changecolor" id="hh">fisrtname</label>
+    <input type="text" >
+     </form> 
+     <label for="fistname" onmouseover="changecolor()" id="name" onmouseout="changecolor2()">fisrtname</label>
+   
+   
+     <label for="click"  id="click" onclick="filcolor()" >click me</label>
+   <br>
+   <input type="text" id="a"> 
+
+   <br>
+   <img src="images.png" alt="avater" id-="img1" width="300px" onclick="imggechnage()" name="img2" >  
+
+
+</body>
+</html>

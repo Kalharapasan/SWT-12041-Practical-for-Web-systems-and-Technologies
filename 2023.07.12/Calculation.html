@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div style=" border-radius: 20px;padding:10px;margin: auto;">
+            <label for="">Enter Number 1:</label>
+            <input type="text" name="num1" id="num1"><br>
+    
+            <label for="">Enter Number 2:</label>
+            <input type="text" name="num2" id="num2"><br>
+
+        </div>
+        <div style="padding-left: 120px;">
+            <input type="button" value="+" id="add" style=" 
+            width: 50px;height: 30px;background-color: rgba(153, 173, 173, 0.96);color: rgb(10, 10, 10) "
+            onclick="addnumber()">
+
+            <input type="button" value="-" id="sub" style="
+            width: 50px;height: 30px;background-color: rgba(78, 156, 156, 0.96);color: rgb(10, 10, 10) "
+            onclick="SubNumber()"><br><br>
+           
+           <input type="button" value="*" id="mul" style="
+            width: 50px;height: 30px;background-color: rgba(190, 214, 214, 0.96);color: rgb(10, 10, 10)" 
+            onclick="mulNumber()">
+
+            <input type="button" value="/" id="div" style="
+            width: 50px;height: 30px;background-color: rgba(137, 203, 203, 0.96);color:rgb(10, 10, 10) "
+            onclick="divNmber()">
+
+        </div>
+       
+    </form>
+</body>
+</html>
+
+<script>
+    function addnumber(){
+        var number1 = document.getElementById("num1").value;
+        var number2 = document.getElementById("num2").value;
+        var add =Number(number1)+Number(number2) ;
+        alert(add);
+    }
+    function SubNumber(){
+        var number1 = document.getElementById("num1").value;
+        var number2 = document.getElementById("num2").value;
+        var sub = Number(number1)-Number(number2);
+        alert(sub);
+        
+    }
+    function mulNumber(){
+        var number1 = document.getElementById("num1").value;
+        var number2 = document.getElementById("num2").value;
+        var mul = Number(number1)*Number(number2);
+        alert(mul);
+    }
+    function divNmber(){
+        var number1 = document.getElementById("num1").value;
+        var number2 = document.getElementById("num2").value;
+        var div = Number(number1)/Number(number2);
+        alert(div);
+    }
+
+</script>

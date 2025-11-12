@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //DOM-DOcument Object Model
+        //Operation action <button>
+        
+            function haiMessage(){
+                alert('Hai');
+            }
+            function haiMessage2(){
+                document.write('Hai');
+            }
+
+            function haiMessageColore(){
+                document.bgColor="red"
+            }
+
+            function colorChange(){
+                document.bgColor="blue"
+            
+            }
+    </script>
+    <input type="button" value="Click" onclick="haiMessage()"><br><br><br>
+    <input type="button" value="Click" onclick="haiMessage2()"><br><br><br>
+
+    <input type="button" value="Click" onclick="haiMessageColore()"" onmouseout="colorChange()"><br><br><br>
+
+    <input type="button" value="Click" onclick="haiMessageColore()"" onblur="colorChange()"><br><br><br><br>
+    <input type="button" value="Click" onclick="haiMessageColore()"" onfocus="colorChange()"><br><br><br><br>
+    <input type="button" value="Click" onclick="haiMessageColore()"" onload="colorChange()"><br><br><br><br>
+</body>
+</html>

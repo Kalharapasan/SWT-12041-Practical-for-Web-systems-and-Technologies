@@ -1,0 +1,91 @@
+.tablecss{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 2.5em;
+    
+}
+
+.tablecss th{
+    border: 2px solid red;
+}
+
+.tablecss   tr td{
+    border: 2px solid red;
+}
+
+
+.tablecss tbody tr td#A{
+    background-color: rgb(147, 35, 40);
+}
+
+
+.tablecss tbody tr td#C{
+    background-color: rgb(160, 213, 213);
+}
+
+/* .tablecss tbody{
+    border-radius: 2pt;
+}
+
+.tablecss thead th {
+
+   background-color: rgb(226, 200, 199);
+   color: rgb(189, 81, 81);
+}
+.tablecss tbody tr#A {
+
+    background-color: rgb(218, 212, 212);
+    color: rgb(82, 63, 63);
+    text-align: left;
+ }
+
+ .tablecss tbody tr#B {
+
+    background-color: rgb(11, 55, 68);
+    color: rgb(211, 98, 98);
+    text-align: left;
+ }
+ .tablecss tbody tr#C {
+
+    background-color: rgb(218, 212, 212);
+    color: rgb(27, 4, 4);
+    text-align: left;
+  
+ }
+.tablecss thead th{
+    border-bottom: 5px solid black;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 8px solid rgb(0, 0, 0);
+    border-right: 8px solid rgb(0, 0, 0);
+}
+
+.tablecss tbody tr td {
+    border-bottom: 5px solid black;
+    border-top:5px solid rgb(0, 0, 0);
+    border-left: 8px solid rgb(0, 0, 0);
+    border-right: 8px solid rgb(0, 0, 0);
+}
+
+ .tablecss thead{
+    border-bottom: 5px solid black;
+    border-top: 5px solid;
+    border-width: 5px solid;
+    border-left: 8px solid rgb(57, 49, 49);
+    border-right: 8px solid rgb(17, 19, 26);
+
+
+ }
+ 
+ .tablecss tbody{
+    border-bottom: 5px solid black;
+    border-top: 5px solid  rgb(58, 49, 49);
+    border-width: 5px solid  rgb(78, 53, 53);
+    border-left: 8px solid rgb(31, 27, 27);
+    border-right: 8px solid rgb(78, 67, 78);
+    
+ }
+
+.tablecss tbody tr td#colo{
+    background-color: blue;
+} */
+

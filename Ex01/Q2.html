@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .calculator {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .display {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: right;
+            font-size: 24px; /* Increased font size */
+            height: 60px; /* Increased height */
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        button {
+            background-color: #eee;
+            border: none;
+            padding: 20px; /* Increased padding */
+            border-radius: 5px;
+            font-size: 20px; /* Increased font size */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .operator {
+            background-color: #ff8c00;
+            color: #fff;
+        }
+
+        .equals {
+            background-color: #4caf50;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button class="operator" onclick="clearDisplay()">C</button>
+            <button class="operator" onclick="appendToDisplay('**2')">x²</button>
+            <button class="operator" onclick="appendToDisplay('%')">%</button>
+            <button class="operator" onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button class="operator" onclick="appendToDisplay('*')">x</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button class="operator" onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button class="operator" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('00')">00</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button class="equals" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        let display = document.getElementById('display');
+
+        function appendToDisplay(value) {
+            if (display.innerText === '0' || display.innerText === 'Error') {
+                display.innerText = '';
+            }
+            display.innerText += value;
+        }
+
+        function clearDisplay() {
+            display.innerText = '0';
+        }
+
+        function calculateResult() {
+            try {
+                const result = eval(display.innerText.replace('**2', '**2')); // Evaluate expression
+                display.innerText = result;
+            } catch (error) {
+                display.innerText = 'Error';
+            }
+        }
+    </script>
+</body>
+</html>
