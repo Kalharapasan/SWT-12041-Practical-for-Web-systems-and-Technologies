@@ -75,12 +75,41 @@ This repository contains all practical exercises, lab sheets, and assessments co
 - `MenuBar.html` - Complete navigation menu example
 - `sample.html` - Additional practice examples
 
-### 2. HTML Forms and Tables (June 21, 2023)
+### 2. HTML Forms and Tables (June 21, 2023) 📋
 **Location:** `2023.06.21/`
-- **HTML Forms** - Creating input forms with validation
-- **CSS Styling** - External stylesheets (`Fromstyle.css`, `style.css`)
-- **Tables** - Structured data display using HTML tables
-- **Login Page** - Complete login interface with styling
+
+**Topics Covered:**
+- **HTML Forms** 
+  - Creating comprehensive input forms
+  - Form elements: text inputs, checkboxes, radio buttons, dropdowns
+  - Form validation and user feedback
+  - Submit and reset functionality
+  
+- **CSS Styling with External Stylesheets** 
+  - `Fromstyle.css` - Form-specific styling
+  - `style.css` - General page styling
+  - Responsive form design
+  - Custom input styling and focus states
+  
+- **HTML Tables** 
+  - Structured data display using tables
+  - Table headers, rows, and cells
+  - Table styling and borders
+  - Responsive table designs
+  
+- **Login Page Implementation**
+  - Complete authentication interface
+  - Input validation
+  - Password fields and security
+  - User experience enhancements
+
+**Files:**
+- `From.html` - Main form implementation
+- `Fromstyle.css` - Form styling
+- `style.css` - General styles
+- `table.html` - Table examples
+- `Login/index.html` - Login interface
+- `Login/style.css` - Login page styles
 
 ### 3. Advanced HTML & JavaScript Basics (July 5, 2023)
 **Location:** `2023.07.05/`
