@@ -937,6 +937,43 @@ npm install --legacy-peer-deps
 
 ---
 
+## 📋 Best Practices Applied
+
+### Code Organization
+- ✅ **Separation of Concerns** - HTML structure, CSS styling, and JavaScript behavior kept separate
+- ✅ **DRY Principle** - Reusable code and avoiding repetition
+- ✅ **Naming Conventions** - Meaningful and consistent naming
+- ✅ **File Structure** - Organized folders and logical grouping
+- ✅ **Comments** - Code documentation for complex logic
+
+### HTML Best Practices
+- ✅ **Semantic Markup** - Using appropriate HTML5 elements
+- ✅ **Accessibility** - ARIA labels, alt text, keyboard navigation
+- ✅ **Valid HTML** - Well-formed and validated markup
+- ✅ **SEO-Friendly** - Proper heading hierarchy and meta tags
+
+### CSS Best Practices
+- ✅ **Mobile-First** - Responsive design starting with mobile
+- ✅ **CSS Specificity** - Avoiding overly specific selectors
+- ✅ **Reusable Classes** - Component-based styling
+- ✅ **Browser Compatibility** - Cross-browser tested styles
+- ✅ **Performance** - Optimized CSS delivery
+
+### JavaScript Best Practices
+- ✅ **ES6+ Features** - Modern JavaScript syntax
+- ✅ **Error Handling** - Try-catch blocks and validation
+- ✅ **Event Delegation** - Efficient event handling
+- ✅ **Avoiding Global Variables** - Proper scope management
+- ✅ **Code Modularity** - Functions and modules for reusability
+
+### Security Considerations
+- ✅ **Input Validation** - Client-side validation for user inputs
+- ✅ **XSS Prevention** - Sanitizing user inputs
+- ✅ **HTTPS Ready** - Code prepared for secure connections
+- ✅ **Password Handling** - Best practices in login forms
+
+---
+
 ## 📝 Notes
 
 - All exercises follow the course curriculum for SWT 12041
