@@ -143,12 +143,43 @@ This repository contains all practical exercises, lab sheets, and assessments co
 - EX00-EX05: Progressive JavaScript exercises
 - Introduction to build tools and modern workflows
 
-### 4. JavaScript Validation & DOM Manipulation (July 12, 2023)
+### 4. JavaScript Validation & DOM Manipulation (July 12, 2023) ✅
 **Location:** `2023.07.12/`
-- **Calculator** - JavaScript-based calculation functionality
-- **Phone Number Validation** - Input validation using regex
-- **Regular Expressions** - Pattern matching exercises (reguler.html, reguler2.html)
-- DOM manipulation and event handling
+
+**Topics Covered:**
+- **Calculator Implementation**
+  - Arithmetic operations
+  - Event handling for buttons
+  - Display updates and calculations
+  - Error handling
+  
+- **Phone Number Validation**
+  - Regular expression patterns
+  - Input validation in real-time
+  - User feedback for invalid inputs
+  - Format verification
+  
+- **Regular Expressions (Regex)**
+  - Pattern matching fundamentals
+  - Email validation
+  - Password strength checking
+  - Custom validation rules
+  
+- **DOM Manipulation Advanced**
+  - Creating and removing elements
+  - Modifying attributes
+  - Event delegation
+  - Dynamic content updates
+
+**Files:**
+- `Calculation.html` - Calculator application
+- `phoneNumber.html` - Phone validation demo
+- `reguler.html` - Regex basics
+- `reguler2.html` - Advanced regex patterns
+- `index2.html` - Combined implementations
+- `sample.html` - Practice examples
+- `styel.css` - Styling for exercises
+- `Untitled-1.html` - Additional practice
 
 ### 5. JavaScript Exercises Series (July 19, 2023)
 **Location:** `2023.07.19/`
