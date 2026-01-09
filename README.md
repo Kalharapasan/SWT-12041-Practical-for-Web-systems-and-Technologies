@@ -304,17 +304,63 @@ This repository contains all practical exercises, lab sheets, and assessments co
 
 ## 🎯 Assessments
 
-### Assessment 01
+### Assessment 01 - Web Interface Design 🏆
 **Location:** `Assesment 01/`
-- Complete web interface implementation
-- Student-specific submission (SUE.IS.20.ICT.084)
-- Multiple design variations (text2/)
 
-### Assessment 02
+**Requirements:**
+- Complete web interface implementation
+- Professional design and layout
+- Responsive across all devices
+- Clean, semantic HTML structure
+- Optimized CSS styling
+
+**Deliverables:**
+- **Main Submission:** `SWT 12041 Assesment SUE.IS.20.ICT.084/index.html`
+  - Student-specific implementation
+  - Meets all assessment criteria
+  - Follows web standards
+  
+- **Alternative Design:** `text2/index.html`
+  - Additional design variation
+  - Demonstrates versatility
+  - Different approach to the same requirements
+
+**Skills Demonstrated:**
+- Professional web design
+- Responsive layout techniques
+- Cross-browser compatibility
+- Accessibility standards
+- Code organization and cleanliness
+
+---
+
+### Assessment 02 - Advanced Web Application 🏆
 **Location:** `Assesment 02/`
-- Styled web application
-- External CSS implementation
-- Advanced layout techniques
+
+**Requirements:**
+- Advanced styled web application
+- External CSS for maintainability
+- Complex layout implementations
+- Interactive elements
+- Professional user interface
+
+**Deliverables:**
+- `index.html` - Main application file
+- `style.css` - Comprehensive styling
+
+**Features Implemented:**
+- Advanced CSS Grid and Flexbox layouts
+- Animations and transitions
+- Modern design patterns
+- Optimized performance
+- Scalable architecture
+
+**Skills Demonstrated:**
+- Advanced CSS techniques
+- Layout mastery
+- Design principles
+- Code maintainability
+- Professional standards
 
 ---
 
