@@ -111,12 +111,37 @@ This repository contains all practical exercises, lab sheets, and assessments co
 - `Login/index.html` - Login interface
 - `Login/style.css` - Login page styles
 
-### 3. Advanced HTML & JavaScript Basics (July 5, 2023)
+### 3. Advanced HTML & JavaScript Basics (July 5, 2023) 💻
 **Location:** `2023.07.05/`
-- Multiple practical exercises (prac1.html, sample.html, sample2.html)
-- Introduction to JavaScript integration
-- Nested folder structure with additional exercises (EX00-EX05)
-- Tailwind CSS configuration setup
+
+**Topics Covered:**
+- **JavaScript Integration**
+  - Embedding JavaScript in HTML
+  - External JavaScript files
+  - Script loading and execution
+  
+- **DOM Manipulation Basics**
+  - Selecting elements
+  - Modifying content dynamically
+  - Event listeners
+  
+- **Tailwind CSS Introduction**
+  - Installing Tailwind CSS via npm
+  - Configuration setup (`tailwind.config.js`)
+  - Understanding utility classes
+  - Build process with `package.json`
+
+**Files:**
+- `prac1.html` - First practical exercise
+- `sample.html` - Sample implementations
+- `sample2.html` - Additional examples
+- `2023.08.14/` subfolder with EX00-EX05 exercises
+- `package.json` - Node.js dependencies
+- `tailwind.config.js` - Tailwind configuration
+
+**Nested Exercises (2023.08.14):**
+- EX00-EX05: Progressive JavaScript exercises
+- Introduction to build tools and modern workflows
 
 ### 4. JavaScript Validation & DOM Manipulation (July 12, 2023)
 **Location:** `2023.07.12/`
