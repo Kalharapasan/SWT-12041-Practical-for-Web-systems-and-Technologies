@@ -366,16 +366,53 @@ This repository contains all practical exercises, lab sheets, and assessments co
 
 ## 🧪 Lab Sheets
 
-### Lab Sheet 1
+### Lab Sheet 1 - HTML Fundamentals 📚
 **Location:** `Labsheet 1/`
-- HTML fundamentals and best practices
-- Comprehensive HTML examples
-- Screenshots and documentation
 
-### Lab Sheet 2
+**Contents:**
+- **HTML Basics**
+  - Document structure
+  - Semantic elements
+  - Text formatting
+  - Lists and links
+  
+- **HTML5 Features**
+  - New semantic tags
+  - Multimedia elements
+  - Forms and inputs
+  - Best practices
+
+**Structure:**
+- `html/` directory - All HTML examples and exercises
+- `img/` directory - Image assets for lab work
+- `Screenshot/` directory - Documentation and visual references
+
+**Learning Objectives:**
+- Master HTML5 syntax and structure
+- Understand semantic markup
+- Implement accessible web pages
+- Follow HTML best practices
+
+---
+
+### Lab Sheet 2 - Advanced Concepts 📚
 **Location:** `Labsheet 2/`
-- Advanced web development concepts
-- Additional HTML exercises
+
+**Contents:**
+- Advanced HTML techniques
+- Complex form implementations
+- Integration with CSS and JavaScript
+- Real-world web development scenarios
+
+**Files:**
+- `html/` directory - Advanced HTML examples
+- `New Text Document.txt` - Additional notes and references
+
+**Skills Covered:**
+- Complex page layouts
+- Advanced form handling
+- Multimedia integration
+- Progressive enhancement
 
 ---
 
