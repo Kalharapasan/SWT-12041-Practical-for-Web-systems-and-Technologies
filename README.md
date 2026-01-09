@@ -818,16 +818,121 @@ SWT 12041 – Practical for Web systems and Technologies/
 
 ## 🚀 Running the Projects
 
-### For HTML/CSS/JavaScript Projects:
-Simply open the HTML files in a web browser.
+### For Standard HTML/CSS/JavaScript Projects
 
-### For Tailwind CSS Projects:
+#### Method 1: Direct Browser Opening
 ```bash
-cd [project-folder]
+# Simply double-click any HTML file or right-click and "Open with" your browser
+# Works for all non-Tailwind projects
+```
+
+#### Method 2: Using Live Server (Recommended for Development)
+```bash
+# If you have VS Code with Live Server extension:
+# 1. Right-click on an HTML file
+# 2. Select "Open with Live Server"
+# 3. Browser opens automatically with hot-reload enabled
+```
+
+#### Method 3: Local Development Server
+```bash
+# Using Python (if installed)
+python -m http.server 8000
+# Then navigate to http://localhost:8000
+
+# Or using Node.js with http-server
+npx http-server -p 8000
+```
+
+---
+
+### For Tailwind CSS Projects
+
+All Tailwind projects include a `package.json` and `tailwind.config.js` file.
+
+#### Initial Setup (First Time Only)
+```bash
+# Navigate to the project directory
+cd "Ex03"  # or any Tailwind project folder
+
+# Install dependencies
 npm install
+```
+
+#### Development Mode (Recommended)
+```bash
+# Watches for changes and rebuilds automatically
+npm run watch
+
+# Or if watch script is not available:
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
+
+#### Production Build
+```bash
+# Build optimized CSS for production (minified and purged)
 npm run build
+
+# Or manually:
+npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
+```
+
+#### Project-Specific Instructions
+
+**Ex03 Project:**
+```bash
+cd Ex03
+npm install
+npm run watch
+# Open src/index.html in your browser
+```
+
+**2023.08.09/EX00 Project:**
+```bash
+cd "2023.08.09/EX00"
+npm install
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+# Open src files in browser
+```
+
+**2023.08.09/EX01 Project:**
+```bash
+cd "2023.08.09/EX01"
+npm install
+npm run dev  # If dev script exists
 # or
 npm run watch
+# Open individual EX files
+```
+
+---
+
+### Opening Multiple Files
+
+To view the progression of exercises:
+1. Open a file in your browser
+2. Use browser navigation to go back/forward
+3. Or keep multiple tabs open for comparison
+
+---
+
+### Troubleshooting
+
+**If Tailwind styles don't appear:**
+1. Ensure you ran `npm install`
+2. Check that `output.css` is generated in the `src/` folder
+3. Verify the HTML file links to the correct CSS file
+4. Run the build/watch command again
+
+**If npm commands don't work:**
+1. Ensure Node.js is installed: `node --version`
+2. Ensure npm is installed: `npm --version`
+3. Delete `node_modules` and `package-lock.json`, then run `npm install` again
+
+**For permission errors:**
+```bash
+# Run PowerShell as Administrator, or use:
+npm install --legacy-peer-deps
 ```
 
 ---
