@@ -181,18 +181,69 @@ This repository contains all practical exercises, lab sheets, and assessments co
 - `styel.css` - Styling for exercises
 - `Untitled-1.html` - Additional practice
 
-### 5. JavaScript Exercises Series (July 19, 2023)
+### 5. JavaScript Exercises Series (July 19, 2023) 🎮
 **Location:** `2023.07.19/`
-- Comprehensive exercise set (EX0 - EX08)
-- Working with images and media files
-- Advanced JavaScript concepts
-- Interactive web elements
 
-### 6. Extended JavaScript Practice (July 26, 2023)
+**Topics Covered:**
+- **Comprehensive Exercise Set (EX0 - EX08)**
+  - Progressive difficulty levels
+  - Real-world problem solving
+  - Interactive web elements
+  - Advanced JavaScript techniques
+  
+- **Image Handling**
+  - Loading and displaying images
+  - Image manipulation
+  - Gallery implementations
+  - Lazy loading concepts
+  
+- **Event Handling**
+  - Click, hover, and keyboard events
+  - Event bubbling and capturing
+  - Preventing default behaviors
+  - Custom event creation
+
+**Files:**
+- `EX0.html` through `EX08.html` - 9 comprehensive exercises
+- `img/` directory - Image assets for exercises
+
+**Exercise Highlights:**
+- Dynamic content generation
+- Form validation techniques
+- Interactive UI components
+- Animation and transitions
+
+### 6. Extended JavaScript Practice (July 26, 2023) 🚀
 **Location:** `2023.07.26/`
-- Advanced exercise series (EX00 - EX09)
-- Image handling and manipulation
-- Complex JavaScript functionality
+
+**Topics Covered:**
+- **Advanced Exercise Series (EX00 - EX09)**
+  - 10 comprehensive JavaScript challenges
+  - Complex problem-solving scenarios
+  - Advanced DOM manipulation
+  - Asynchronous operations
+  
+- **Image Processing**
+  - Image upload and preview
+  - Image format handling
+  - Responsive image display
+  - Image optimization techniques
+  
+- **Complex JavaScript Functionality**
+  - Object-oriented programming concepts
+  - Array manipulation methods
+  - String operations
+  - Mathematical computations
+
+**Files:**
+- `EX00.html` through `EX09.html` - 10 advanced exercises
+- `img/4.jfif` - Sample image asset
+
+**Skills Developed:**
+- Advanced JavaScript ES6+ features
+- Modular code organization
+- Error handling and debugging
+- Performance optimization
 
 ### 7. Tailwind CSS Framework (August 9, 2023)
 **Location:** `2023.08.09/`
@@ -328,32 +379,4 @@ SWT 12041 – Practical for Web systems and Technologies/
 ### For HTML/CSS/JavaScript Projects:
 Simply open the HTML files in a web browser.
 
-### For Tailwind CSS Projects:
-```bash
-cd [project-folder]
-npm install
-npm run build
-# or
-npm run watch
-```
-
----
-
-## 📝 Notes
-
-- All exercises follow the course curriculum for SWT 12041
-- Projects demonstrate progressive learning from basic HTML to modern frameworks
-- Code follows web standards and best practices
-- Assessment submissions completed as per course requirements
-
----
-
-## 👨‍💻 Student Information
-
-**Student ID:** SUE.IS.20.ICT.084  
-**Course:** SWT 12041 – Practical for Web Systems and Technologies  
-**Academic Year:** 2023
-
----
-
-*This repository represents a complete journey through web development fundamentals and modern web technologies.*
+### For Tailwi
