@@ -379,4 +379,32 @@ SWT 12041 – Practical for Web systems and Technologies/
 ### For HTML/CSS/JavaScript Projects:
 Simply open the HTML files in a web browser.
 
-### For Tailwi
+### For Tailwind CSS Projects:
+```bash
+cd [project-folder]
+npm install
+npm run build
+# or
+npm run watch
+```
+
+---
+
+## 📝 Notes
+
+- All exercises follow the course curriculum for SWT 12041
+- Projects demonstrate progressive learning from basic HTML to modern frameworks
+- Code follows web standards and best practices
+- Assessment submissions completed as per course requirements
+
+---
+
+## 👨‍💻 Student Information
+
+**Student ID:** SUE.IS.20.ICT.084  
+**Course:** SWT 12041 – Practical for Web Systems and Technologies  
+**Academic Year:** 2023
+
+---
+
+*This repository represents a complete journey through web development fundamentals and modern web technologies.*
